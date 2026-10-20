@@ -76,7 +76,7 @@ a { text-decoration: none; }
     radial-gradient(70% 90% at 12% -10%, rgba(40, 194, 186, .24), transparent 62%),
     radial-gradient(60% 80% at 95% 0%, #1B4A80, transparent 65%),
     linear-gradient(rgba(10, 37, 64, 0.85), rgba(10, 37, 64, 0.85)), /* Dark navy tint over image */
-    url('/heroBG.jpg'); 
+    url('heroBG.jpg'); 
   background-size: cover;
   background-position: center;
 }
