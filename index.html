@@ -1,331 +1,447 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ميلاسيرف | شريكك في تعهيد وإدارة الخدمات التشغيلية للقطاع الصحي</title>
-  <meta name="description" content="تساعد ميلا سيرف المنشآت الصحية في الخليج على رفع كفاءة التشغيل وتحسين تجربة العملاء، من خلال فرق متخصصة تعمل عن بُعد كامتداد لفريقك.">
+  <meta name="description"
+    content="تساعد ميلا سيرف المنشآت الصحية في الخليج على رفع كفاءة التشغيل وتحسين تجربة العملاء، من خلال فرق متخصصة تعمل عن بُعد كامتداد لفريقك.">
   <link rel="stylesheet" href="vendor/bootstrap.rtl.min.css">
   <link rel="stylesheet" href="vendor/bootstrap-icons.min.css">
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-<a class="skip-link" href="#main">تخطي إلى المحتوى</a>
+  <a class="skip-link" href="#main">تخطي إلى المحتوى</a>
 
-<!-- ================= HEADER ================= -->
-<header class="site-header sticky-top" id="header">
-  <nav class="navbar navbar-expand-lg container" aria-label="القائمة الرئيسية">
-    <a class="brand navbar-brand" href="#top" aria-label="ميلاسيرف — الصفحة الرئيسية">
-      <img src="Logo.png" alt="ميلاسيرف" width="34" height="34">
-      <span>ميلاسيرف</span>
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="فتح القائمة"><span class="navbar-toggler-icon"></span></button>
-    <div class="collapse navbar-collapse" id="mainNav">
-      <ul class="navbar-nav mx-lg-auto gap-lg-3">
-        <li class="nav-item"><a class="nav-link" href="#services">خدماتنا</a></li>
-        <li class="nav-item"><a class="nav-link" href="#process">كيف نعمل؟</a></li>
-        <li class="nav-item"><a class="nav-link" href="#sectors">القطاعات</a></li>
-        <li class="nav-item"><a class="nav-link" href="#why">لماذا ميلاسيرف؟</a></li>
-      </ul>
-      <a class="btn btn-brand" href="https://calendly.com/milaserv" target="_blank" rel="noopener">احجز استشارة</a>
-    </div>
-  </nav>
-</header>
+  <!-- ================= HEADER ================= -->
+  <header class="site-header fixed-top">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
 
-<main id="main" tabindex="-1">
+        <!-- Brand / Logo -->
+        <a class="brand" href="#">
+          <img src="Logo.png" alt="MilaServ" height="50" width="50"> MilaServ
+        </a>
 
-<!-- ================= HERO ================= -->
-<section class="hero" id="top">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-9">
-        <h1 class="hero__title">شريكك في تعهيد وإدارة <span class="hero__soft">الخدمات التشغيلية للقطاع الصحي</span></h1>
+        <!-- Mobile Toggler -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+          aria-controls="mainNav" aria-expanded="false" aria-label="فتح القائمة">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="mainNav">
+          <!-- Added gap-lg-4 to fix the spacing issue between items -->
+          <ul class="navbar-nav mx-lg-auto align-lg-items-center gap-3 gap-lg-4">
+
+            <!-- Dropdown Item -->
+            <li class="nav-item dropdown">
+              <button class="btn nav-link dropdown-toggle dropdown-custom p-0 border-0 bg-transparent" type="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="link-text">خدماتنا</span>
+              </button>
+              <ul class="dropdown-menu shadow-sm border-0">
+                <li><a class="dropdown-item" href="#">خدمة العملاء ومراكز الاتصال</a></li>
+                <li><a class="dropdown-item" href="#">إدارة العمليات التأمينية</a></li>
+                <li><a class="dropdown-item" href="#">إدارة علاقات المرضى وبرامج الولاء</a></li>
+                <li><a class="dropdown-item" href="#">فرق مبيعات هاتفية</a></li>
+                <li><a class="dropdown-item" href="#">إدارة عمليات التجارة الإلكترونية</a></li>
+                <li><a class="dropdown-item" href="#">التسويق الرقمي</a></li>
+                <li><a class="dropdown-item" href="#">الاستشارات الطبية عن بُعد</a></li>
+              </ul>
+            </li>
+
+            <!-- Regular Links -->
+            <li class="nav-item"><a class="nav-link" href="#process">كيف نعمل؟</a></li>
+            <li class="nav-item dropdown">
+              <button class="btn nav-link dropdown-toggle dropdown-custom p-0 border-0 bg-transparent" type="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="link-text">القطاعات</span>
+              </button>
+              <ul class="dropdown-menu shadow-sm border-0">
+                <li><a class="dropdown-item" href="#">المستشفيات</a></li>
+                <li><a class="dropdown-item" href="#">القطاعات الطبية</a></li>
+                <li><a class="dropdown-item" href="#">العيادات الخاصة</a></li>
+                <li><a class="dropdown-item" href="#">المختبرات الطبية</a></li>
+                <li><a class="dropdown-item" href="#">الصيدليات</a></li>
+                <li><a class="dropdown-item" href="#">منصات الرعاية الصحية</a></li>
+                <li><a class="dropdown-item" href="#">مزودو خدمات الطب الاتصالي</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#why">لماذا ميلاسيرف؟</a></li>
+          </ul>
+
+          <!-- Action Button -->
+          <a href="#contact" class="btn btn-brand">احجز استشارة</a>
+        </div>
+
       </div>
-    </div>
-    <div class="row align-items-end gy-4 mt-3">
-      <div class="col-lg-6">
-        <p class="hero__lead">تساعد ميلاسيرف المنشآت الصحية في الخليج على رفع كفاءة التشغيل وتحسين تجربة العملاء، من خلال فرق متخصصة تعمل عن بُعد كامتداد لفريقك، لخدمة المستشفيات والمجمعات الطبية والعيادات والمعامل والصيدليات ومنصات الرعاية الصحية.</p>
-      </div>
-      <div class="col-lg-6 hero__actions">
-        <a class="btn btn-brand-light btn-lg" href="https://calendly.com/milaserv" target="_blank" rel="noopener">احجز استشارة</a>
-        <a class="btn btn-outline-light btn-lg" href="#services">اكتشف خدماتنا</a>
-      </div>
-    </div>
-
-    <!-- Operational thread: the seven service lines, each linking to its entry below -->
-    <nav class="thread" aria-label="خدماتنا التشغيلية">
-      <ol>
-        <li><a href="#svc-1"><i class="bi bi-headset" aria-hidden="true"></i>خدمة العملاء ومراكز الاتصال</a></li>
-        <li><a href="#svc-2"><i class="bi bi-shield-check" aria-hidden="true"></i>إدارة العمليات التأمينية</a></li>
-        <li><a href="#svc-3"><i class="bi bi-heart-pulse" aria-hidden="true"></i>إدارة علاقات المرضى وبرامج الولاء</a></li>
-        <li><a href="#svc-4"><i class="bi bi-telephone-outbound" aria-hidden="true"></i>فرق مبيعات هاتفية</a></li>
-        <li><a href="#svc-5"><i class="bi bi-cart3" aria-hidden="true"></i>إدارة عمليات التجارة الإلكترونية</a></li>
-        <li><a href="#svc-6"><i class="bi bi-graph-up-arrow" aria-hidden="true"></i>التسويق الرقمي</a></li>
-        <li><a href="#svc-7"><i class="bi bi-camera-video" aria-hidden="true"></i>الاستشارات الطبية عن بُعد</a></li>
-      </ol>
     </nav>
-  </div>
-</section>
+  </header>
 
-<!-- ================= TRUST METRICS ================= -->
-<section class="metrics" aria-label="أرقامنا">
+  <main id="main" tabindex="-1">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9">
+            <h1 class="hero__title">شريكك في تعهيد وإدارة <span class="hero__soft">الخدمات التشغيلية للقطاع الصحي</span>
+            </h1>
+          </div>
+        </div>
+        <div class="row align-items-end gy-4 mt-3">
+          <div class="col-lg-6">
+            <p class="hero__lead">تساعد ميلاسيرف المنشآت الصحية في الخليج على رفع كفاءة التشغيل وتحسين تجربة العملاء، من
+              خلال فرق متخصصة تعمل عن بُعد كامتداد لفريقك، لخدمة المستشفيات والمجمعات الطبية والعيادات والمعامل
+              والصيدليات ومنصات الرعاية الصحية.</p>
+          </div>
+          <div class="col-lg-6 hero__actions">
+            <a class="btn btn-brand-light btn-lg" href="https://calendly.com/milaserv" target="_blank"
+              rel="noopener">احجز استشارة</a>
+            <a class="btn btn-outline-light btn-lg" href="#services">اكتشف خدماتنا</a>
+          </div>
+        </div>
+
+        <!-- Operational thread: the seven service lines, each linking to its entry below -->
+        <nav class="thread" aria-label="خدماتنا التشغيلية">
+          <ol>
+            <li><a href="#svc-1"><i class="bi bi-headset" aria-hidden="true"></i>خدمة العملاء ومراكز الاتصال</a></li>
+            <li><a href="#svc-2"><i class="bi bi-shield-check" aria-hidden="true"></i>إدارة العمليات التأمينية</a></li>
+            <li><a href="#svc-3"><i class="bi bi-heart-pulse" aria-hidden="true"></i>إدارة علاقات المرضى وبرامج
+                الولاء</a></li>
+            <li><a href="#svc-4"><i class="bi bi-telephone-outbound" aria-hidden="true"></i>فرق مبيعات هاتفية</a></li>
+            <li><a href="#svc-5"><i class="bi bi-cart3" aria-hidden="true"></i>إدارة عمليات التجارة الإلكترونية</a></li>
+            <li><a href="#svc-6"><i class="bi bi-graph-up-arrow" aria-hidden="true"></i>التسويق الرقمي</a></li>
+            <li><a href="#svc-7"><i class="bi bi-camera-video" aria-hidden="true"></i>الاستشارات الطبية عن بُعد</a></li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+
+    <!-- ================= TRUST METRICS ================= -->
+    <section class="metrics" aria-label="أرقامنا">
+      <div class="container">
+        <div class="metrics__grid">
+          <div class="metric">
+            <p class="metric__num"><b data-count="4">٤</b><span>سنوات</span></p>
+            <p class="metric__label">في السوق الخليجي، بخبرة إدارية تمتد إلى ١٥ عامًا في القطاع الطبي بالمملكة.</p>
+            <!-- 4 of 15 years -->
+            <div class="bar" style="--w:26.7%" aria-hidden="true"><i></i></div>
+          </div>
+          <div class="metric">
+            <p class="metric__num"><b data-count="15">١٥</b><span>مليون</span></p>
+            <p class="metric__label">تفاعل سنويًا.</p>
+          </div>
+          <div class="metric">
+            <p class="metric__num"><b data-count="4.7" data-decimals="1">٤٫٧</b><span>/ ٥</span></p>
+            <p class="metric__label">متوسط رضا العملاء.</p>
+            <div class="segs" aria-hidden="true"><i></i><i></i><i></i><i></i><i class="part"></i></div>
+          </div>
+          <div class="metric">
+            <p class="metric__num"><b data-count="96">٩٦</b><span>%</span></p>
+            <p class="metric__label">نسبة قبول المطالبات التأمينية.</p>
+            <div class="bar" style="--w:96%" aria-hidden="true"><i></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+
+<section class="section services-section">
   <div class="container">
-    <div class="metrics__grid">
-      <div class="metric">
-        <p class="metric__num"><b data-count="4">٤</b><span>سنوات</span></p>
-        <p class="metric__label">في السوق الخليجي، بخبرة إدارية تمتد إلى ١٥ عامًا في القطاع الطبي بالمملكة.</p>
-        <!-- 4 of 15 years -->
-        <div class="bar" style="--w:26.7%" aria-hidden="true"><i></i></div>
-      </div>
-      <div class="metric">
-        <p class="metric__num"><b data-count="15">١٥</b><span>مليون</span></p>
-        <p class="metric__label">تفاعل سنويًا.</p>
-      </div>
-      <div class="metric">
-        <p class="metric__num"><b data-count="4.7" data-decimals="1">٤٫٧</b><span>/ ٥</span></p>
-        <p class="metric__label">متوسط رضا العملاء.</p>
-        <div class="segs" aria-hidden="true"><i></i><i></i><i></i><i></i><i class="part"></i></div>
-      </div>
-      <div class="metric">
-        <p class="metric__num"><b data-count="96">٩٦</b><span>%</span></p>
-        <p class="metric__label">نسبة قبول المطالبات التأمينية.</p>
-        <div class="bar" style="--w:96%" aria-hidden="true"><i></i></div>
-      </div>
+    <div class="section-head mx-auto">
+      <h2>خدماتنا التشغيلية</h2>
+      <p>حلول متكاملة مصممة خصيصاً لدعم المنشآت الصحية ورفع كفاءة تشغيلها.</p>
     </div>
-  </div>
-</section>
 
-<!-- ================= SERVICES ================= -->
-<section class="section" id="services">
-  <div class="container">
-    <header class="section-head">
-      <h2>خدماتنا</h2>
-      <p>حلول تشغيلية ومساندة، بفرق متخصصة تفهم احتياجات منشأتك الصحية.</p>
-    </header>
-
-    <!-- Service links go to #contact for now; replace with each service page when ready -->
-    <div class="svc">
-      <article class="svc__feature" id="svc-1">
-        <span class="svc__no">٠١</span>
-        <i class="bi bi-headset svc__icon" aria-hidden="true"></i>
-        <h3>خدمة العملاء ومراكز الاتصال</h3>
-        <p>فرق متخصصة تدير تواصل منشأتك مع المرضى عبر قنوات متعددة، بسرعة استجابة وجودة ثابتة.</p>
-        <a class="link-more" href="#contact">اكتشف المزيد<span class="visually-hidden">: خدمة العملاء ومراكز الاتصال</span></a>
+    <div class="svc-grid">
+      <!-- Card 1 -->
+      <article class="svc-card" id="svc-1">
+        <div class="svc-card__header">
+          <i class="bi bi-headset svc__icon" aria-hidden="true"></i>
+        </div>
+        <div class="svc-card__body">
+          <h3>خدمة العملاء ومراكز الاتصال</h3>
+          <p>فرق متخصصة تدير تواصل منشأتك مع المرضى عبر قنوات متعددة، بسرعة استجابة وجودة ثابتة.</p>
+        </div>
+        <a class="link-more" href="#contact">اكتشف المزيد</a>
       </article>
 
-      <div class="svc__list">
-        <article class="svc__item" id="svc-2">
-          <span class="svc__no">٠٢</span>
-          <div>
-            <h3><i class="bi bi-shield-check" aria-hidden="true"></i>إدارة العمليات التأمينية</h3>
-            <p>ندعم المنشآت الصحية في إدارة إجراءات التأمين الطبي، من متابعة الموافقات التأمينية ومطالبات التأمين إلى تنسيق الإجراءات مع شركات التأمين، بما يساعد على تنظيم سير العمل وتقليل الأعباء الإدارية.</p>
-            <a class="link-more" href="#contact">اكتشف المزيد<span class="visually-hidden">: إدارة العمليات التأمينية</span></a>
-          </div>
-        </article>
-        <article class="svc__item" id="svc-3">
-          <span class="svc__no">٠٣</span>
-          <div>
-            <h3><i class="bi bi-heart-pulse" aria-hidden="true"></i>إدارة علاقات المرضى وبرامج الولاء</h3>
-            <p>نعزز ولاء المرضى ونحافظ على استمرار علاقتهم بمنشأتك، عبر برامج ولاء واستراتيجيات مناسبة للقطاع الصحي.</p>
-            <a class="link-more" href="#contact">اكتشف المزيد<span class="visually-hidden">: إدارة علاقات المرضى وبرامج الولاء</span></a>
-          </div>
-        </article>
-        <article class="svc__item" id="svc-4">
-          <span class="svc__no">٠٤</span>
-          <div>
-            <h3><i class="bi bi-telephone-outbound" aria-hidden="true"></i>فرق مبيعات هاتفية</h3>
-            <p>فرق مدرّبة تتواصل مع المرضى الحاليين والمحتملين للتعريف بخدماتكم، وتحويل فرص التواصل إلى حجوزات تدعم زيادة إيرادات المنشأة.</p>
-            <a class="link-more" href="#contact">اكتشف المزيد<span class="visually-hidden">: فرق مبيعات هاتفية</span></a>
-          </div>
-        </article>
-        <article class="svc__item" id="svc-5">
-          <span class="svc__no">٠٥</span>
-          <div>
-            <h3><i class="bi bi-cart3" aria-hidden="true"></i>إدارة عمليات التجارة الإلكترونية</h3>
-            <p>فرق تدعم العمليات اليومية لمتاجر الصيدليات والمنصات الصحية الإلكترونية، لتنظيم المهام وتحسين كفاءة التشغيل.</p>
-            <a class="link-more" href="#contact">اكتشف المزيد<span class="visually-hidden">: إدارة عمليات التجارة الإلكترونية</span></a>
-          </div>
-        </article>
-        <article class="svc__item" id="svc-6">
-          <span class="svc__no">٠٦</span>
-          <div>
-            <h3><i class="bi bi-graph-up-arrow" aria-hidden="true"></i>التسويق الرقمي</h3>
-            <p>نساعد المنشآت الصحية على تعزيز حضورها الرقمي والوصول إلى جمهورها المستهدف، من خلال كتابة المحتوى وتحسين محركات البحث (<bdi dir="ltr">SEO</bdi>) والحملات الإعلانية والتصميم ومونتاج الفيديو، بما يسهم في الوصول إلى المزيد من العملاء.</p>
-            <a class="link-more" href="#contact">اكتشف المزيد<span class="visually-hidden">: التسويق الرقمي</span></a>
-          </div>
-        </article>
-        <article class="svc__item" id="svc-7">
-          <span class="svc__no">٠٧</span>
-          <div>
-            <h3><i class="bi bi-camera-video" aria-hidden="true"></i>الاستشارات الطبية عن بُعد</h3>
-            <p>ندعم المنشآت الصحية في إدارة خدمات الطب عن بُعد، من الحجوزات ومتابعة المرضى إلى الدعم، مع إمكانية توفير أطباء مرخّصين حسب احتياج المنشأة.</p>
-            <a class="link-more" href="#contact">اكتشف المزيد<span class="visually-hidden">: الاستشارات الطبية عن بُعد</span></a>
-          </div>
-        </article>
-      </div>
+      <!-- Card 2 -->
+      <article class="svc-card" id="svc-2">
+        <div class="svc-card__header">
+          <i class="bi bi-shield-check svc__icon" aria-hidden="true"></i>
+        </div>
+        <div class="svc-card__body">
+          <h3>إدارة العمليات التأمينية</h3>
+          <p>ندعم المنشآت الصحية في إدارة إجراءات التأمين الطبي، من متابعة الموافقات ومطالبات التأمين إلى تنسيق الإجراءات.</p>
+        </div>
+        <a class="link-more" href="#contact">اكتشف المزيد</a>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="svc-card" id="svc-3">
+        <div class="svc-card__header">
+          <i class="bi bi-heart-pulse svc__icon" aria-hidden="true"></i>
+        </div>
+        <div class="svc-card__body">
+          <h3>إدارة علاقات المرضى وبرامج الولاء</h3>
+          <p>نعزز ولاء المرضى ونحافظ على استمرار علاقتهم بمنشأتك عبر برامج ولاء واستراتيجيات مخصصة.</p>
+        </div>
+        <a class="link-more" href="#contact">اكتشف المزيد</a>
+      </article>
+
+      <!-- Card 4 -->
+      <article class="svc-card" id="svc-4">
+        <div class="svc-card__header">
+          <i class="bi bi-telephone-outbound svc__icon" aria-hidden="true"></i>
+        </div>
+        <div class="svc-card__body">
+          <h3>فرق مبيعات هاتفية</h3>
+          <p>فرق مدرّبة تتواصل مع المرضى للتعريف بخدماتكم، وتحويل فرص التواصل إلى حجوزات تزيد إيرادات المنشأة.</p>
+        </div>
+        <a class="link-more" href="#contact">اكتشف المزيد</a>
+      </article>
+
+      <!-- Card 5 -->
+      <article class="svc-card" id="svc-5">
+        <div class="svc-card__header">
+          <i class="bi bi-cart3 svc__icon" aria-hidden="true"></i>
+        </div>
+        <div class="svc-card__body">
+          <h3>إدارة عمليات التجارة الإلكترونية</h3>
+          <p>فرق تدعم العمليات اليومية لمتاجر الصيدليات والمنصات الصحية الإلكترونية، لتحسين كفاءة التشغيل.</p>
+        </div>
+        <a class="link-more" href="#contact">اكتشف المزيد</a>
+      </article>
+
+      <!-- Card 6 -->
+      <article class="svc-card" id="svc-6">
+        <div class="svc-card__header">
+          <i class="bi bi-graph-up-arrow svc__icon" aria-hidden="true"></i>
+        </div>
+        <div class="svc-card__body">
+          <h3>التسويق الرقمي</h3>
+          <p>نساعد المنشآت على تعزيز حضورها الرقمي من خلال كتابة المحتوى وتحسين محركات البحث (<bdi dir="ltr">SEO</bdi>) والحملات.</p>
+        </div>
+        <a class="link-more" href="#contact">اكتشف المزيد</a>
+      </article>
+
+      <!-- Card 7 -->
+      <article class="svc-card" id="svc-7">
+        <div class="svc-card__header">
+          <i class="bi bi-camera-video svc__icon" aria-hidden="true"></i>
+        </div>
+        <div class="svc-card__body">
+          <h3>الاستشارات الطبية عن بُعد</h3>
+          <p>ندعم المنشآت في إدارة خدمات الطب عن بُعد، من الحجوزات ومتابعة المرضى إلى توفير أطباء مرخّصين.</p>
+        </div>
+        <a class="link-more" href="#contact">اكتشف المزيد</a>
+      </article>
     </div>
   </div>
 </section>
 
-<!-- ================= PROCESS ================= -->
-<section class="section section--tint" id="process">
-  <div class="container">
-    <header class="section-head">
-      <h2>كيف نعمل؟</h2>
-      <p>ثلاث خطوات واضحة من أول تواصل حتى التشغيل.</p>
-    </header>
-    <ol class="flow">
-      <li data-reveal>
-        <span class="flow__no">١</span>
-        <h3>نفهم احتياج منشأتك</h3>
-        <p>نراجع نوع المنشأة وحجم التواصل والإجراءات المعتمدة، لنحدد الخدمات والفريق المناسبين.</p>
-      </li>
-      <li data-reveal>
-        <span class="flow__no">٢</span>
-        <h3>نجهّز الفريق ونُدرّبه</h3>
-        <p>نبني فريقًا يعمل وفق سياساتك وأسلوب تواصلك، ونُدرّبه قبل بدء التشغيل.</p>
-      </li>
-      <li data-reveal>
-        <span class="flow__no">٣</span>
-        <h3>نشغّل ونتابع الأداء</h3>
-        <p>نبدأ التشغيل ونتابع مؤشرات الأداء المتفق عليها، ونرفع تقارير دورية لتحسين الخدمة باستمرار، مع تحديد فرص التوسع وزيادة الإيرادات ومشاركتها مع العميل.</p>
-      </li>
-    </ol>
-  </div>
-</section>
+        <!-- ================= PROCESS ================= -->
+        <section class="section section-how" id="process">
+          <div class="container">
+            <header class="section-head">
+              <h2>كيف نعمل؟</h2>
+              <p>ثلاث خطوات واضحة من أول تواصل حتى التشغيل.</p>
+            </header>
+            <ol class="flow">
+              <li data-reveal>
+                <span class="flow__no">١</span>
+                <h3>نفهم احتياج منشأتك</h3>
+                <p>نراجع نوع المنشأة وحجم التواصل والإجراءات المعتمدة، لنحدد الخدمات والفريق المناسبين.</p>
+              </li>
+              <li data-reveal>
+                <span class="flow__no">٢</span>
+                <h3>نجهّز الفريق ونُدرّبه</h3>
+                <p>نبني فريقًا يعمل وفق سياساتك وأسلوب تواصلك، ونُدرّبه قبل بدء التشغيل.</p>
+              </li>
+              <li data-reveal>
+                <span class="flow__no">٣</span>
+                <h3>نشغّل ونتابع الأداء</h3>
+                <p>نبدأ التشغيل ونتابع مؤشرات الأداء المتفق عليها، ونرفع تقارير دورية لتحسين الخدمة باستمرار، مع تحديد
+                  فرص
+                  التوسع وزيادة الإيرادات ومشاركتها مع العميل.</p>
+              </li>
+            </ol>
+          </div>
+        </section>
 
-<!-- ================= SECTORS ================= -->
-<section class="section" id="sectors">
-  <div class="container">
-    <div class="row gx-xl-5 gy-5">
-      <div class="col-lg-4">
-        <div class="sectors__intro">
-          <h2>القطاعات</h2>
-          <p>حلول تعهيد مصممة لاحتياجات كل نوع من المنشآت الصحية.</p>
-          <a class="btn btn-outline-navy" href="#contact">تعرّف على القطاعات التي نخدمها</a>
+        <!-- ================= SECTORS ================= -->
+        <section class="section" id="sectors">
+          <div class="container">
+            <div class="row gx-xl-5 gy-5">
+              <div class="col-lg-4">
+                <div class="sectors__intro">
+                  <h2>القطاعات</h2>
+                  <p>حلول تعهيد مصممة لاحتياجات كل نوع من المنشآت الصحية.</p>
+                  <a class="btn btn-outline-navy" href="#contact">تعرّف على القطاعات التي نخدمها</a>
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <ul class="sectors">
+                  <li>
+                    <h3>المستشفيات</h3>
+                    <p>فرق متخصصة تدير التواصل مع المرضى والمراجعين.</p>
+                  </li>
+                  <li>
+                    <h3>المجمعات الطبية</h3>
+                    <p>فرق تدعم التواصل عبر عيادات المجمع وأقسامه المختلفة.</p>
+                  </li>
+                  <li>
+                    <h3>العيادات الخاصة</h3>
+                    <p>دعم يخفف العبء التشغيلي عن فريق العيادة.</p>
+                  </li>
+                  <li>
+                    <h3>المختبرات الطبية</h3>
+                    <p>تواصل منظم مع مراجعي المعمل ومتابعة استفساراتهم.</p>
+                  </li>
+                  <li>
+                    <h3>الصيدليات</h3>
+                    <p>دعم تواصل الصيدلية مع عملائها ومتجرها الإلكتروني.</p>
+                  </li>
+                  <li>
+                    <h3>منصات الرعاية الصحية</h3>
+                    <p>فرق متخصصة تدعم خدمة المستخدمين وتحسين تجربتهم.</p>
+                  </li>
+                  <li>
+                    <h3>مزودو خدمات الطب الاتصالي</h3>
+                    <p>فرق متخصصة تدعم الاستشارات الافتراضية وجدولة المواعيد والفرز الطبي، وتحسّن تجربة المرضى.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ================= WHY MILASERV ================= -->
+        <section class="why" id="why">
+          <div class="container">
+            <header class="section-head">
+              <h2>لماذا ميلاسيرف؟</h2>
+              <p>شريك تشغيلي يفهم احتياجات مؤسستك الصحية</p>
+            </header>
+            <div class="row gy-5 gx-xl-5">
+              <div class="col-lg-8">
+                <div class="why__grid">
+                  <article class="why__item" data-reveal>
+                    <h3>خبرة متخصصة في القطاع الصحي</h3>
+                    <p>من إدارة الحجوزات والاستفسارات إلى متابعة المرضى والتعامل مع الشكاوى، نصمم خدماتنا بما يتناسب مع
+                      طبيعة العمليات الصحية واحتياجات كل مؤسسة.</p>
+                  </article>
+                  <article class="why__item" data-reveal>
+                    <h3>فرق عمل مرنة تعمل وفق نظام مؤسستك</h3>
+                    <p>نوفر فرقًا متخصصة تعمل وفق إجراءات منشأتك وأنظمتها المعتمدة، مع إمكانية زيادة عدد أفرادها وتوسيع
+                      مهامها حسب حجم العمل، بما يتيح لك التوسع بكفاءة دون إعادة بناء منظومة التشغيل.</p>
+                  </article>
+                  <article class="why__item" data-reveal>
+                    <h3>عمليات أكثر تنظيمًا، وضغط تشغيلي أقل</h3>
+                    <p>نتولى إدارة مهام التشغيل والتواصل والمتابعة ضمن نطاق الخدمات المتفق عليه، بما يخفف الأعباء
+                      اليومية عن
+                      فريقك ويساعد على تنظيم سير العمل داخل المؤسسة.</p>
+                  </article>
+                  <article class="why__item" data-reveal>
+                    <h3>أداء واضح وفرص مستمرة للتحسين</h3>
+                    <p>من خلال التقارير الدورية ومتابعة مؤشرات الأداء المتفق عليها، يمكنك تقييم جودة الخدمة وتحديد فرص
+                      تطوير
+                      تجربة المرضى.</p>
+                  </article>
+                </div>
+              </div>
+              <!-- Data governance: set apart as its own panel so the confidentiality point reads first -->
+              <div class="col-lg-4">
+                <article class="why__gov" data-reveal>
+                  <i class="bi bi-lock" aria-hidden="true"></i>
+                  <h3>حوكمة البيانات وسرية المعلومات</h3>
+                  <p>نتعامل مع بيانات المرضى بسرية، ونعمل وفق سياسات الخصوصية وإجراءات حماية البيانات المعتمدة والمتفق
+                    عليها
+                    مع كل منشأة، بما يدعم الالتزام بضوابط العمل ويحافظ على خصوصية المعلومات.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ================= FINAL CTA ================= -->
+        <section class="section" id="contact">
+          <div class="container">
+            <div class="cta">
+              <div class="row align-items-center gy-4">
+                <div class="col-lg-8">
+                  <h2>جاهز لتخفيف العبء التشغيلي عن منشأتك؟</h2>
+                  <p>تحدث مع فريقنا لنحدد معًا الخدمات الأنسب لاحتياجاتك.</p>
+                </div>
+                <div class="col-lg-4 cta__actions">
+                  <a class="btn btn-brand-light btn-lg" href="https://calendly.com/milaserv" target="_blank"
+                    rel="noopener">احجز استشارة</a>
+                  <a class="cta__wa" href="https://wa.me/201055577579" target="_blank" rel="noopener"><i
+                      class="bi bi-whatsapp" aria-hidden="true"></i>واتساب</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-4">
+          <a class="brand" href="#top"><img src="Logo1.png" alt="ميلاسيرف" width="34"
+              height="34"><span>ميلاسيرف</span></a>
+          <p class="mt-3">شريكك في تعهيد وإدارة الخدمات التشغيلية للقطاع الصحي.</p>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h2 class="footer__h">الصفحة</h2>
+          <ul>
+            <li><a href="#services">خدماتنا</a></li>
+            <li><a href="#process">كيف نعمل؟</a></li>
+            <li><a href="#sectors">القطاعات</a></li>
+            <li><a href="#why">لماذا ميلاسيرف؟</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-3">
+          <h2 class="footer__h">خدماتنا</h2>
+          <ul>
+            <li><a href="#svc-1">خدمة العملاء ومراكز الاتصال</a></li>
+            <li><a href="#svc-2">إدارة العمليات التأمينية</a></li>
+            <li><a href="#svc-3">إدارة علاقات المرضى وبرامج الولاء</a></li>
+            <li><a href="#svc-4">فرق مبيعات هاتفية</a></li>
+            <li><a href="#svc-5">إدارة عمليات التجارة الإلكترونية</a></li>
+            <li><a href="#svc-6">التسويق الرقمي</a></li>
+            <li><a href="#svc-7">الاستشارات الطبية عن بُعد</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h2 class="footer__h">تواصل معنا</h2>
+          <ul>
+            <li><a href="https://calendly.com/milaserv" target="_blank" rel="noopener">احجز استشارة</a></li>
+            <li><a href="https://wa.me/201055577579" target="_blank" rel="noopener">واتساب: <bdi dir="ltr">+20 105 557
+                  7579</bdi></a></li>
+            <li><a href="https://www.linkedin.com/company/milaserv-company/" target="_blank" rel="noopener">LinkedIn</a>
+            </li>
+            <li><a href="https://www.instagram.com/milaserv.eg/" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://milaserv.com/ar/privacy-policy" target="_blank" rel="noopener">سياسة الخصوصية</a></li>
+          </ul>
         </div>
       </div>
-      <div class="col-lg-8">
-        <ul class="sectors">
-          <li><h3>المستشفيات</h3><p>فرق متخصصة تدير التواصل مع المرضى والمراجعين.</p></li>
-          <li><h3>المجمعات الطبية</h3><p>فرق تدعم التواصل عبر عيادات المجمع وأقسامه المختلفة.</p></li>
-          <li><h3>العيادات الخاصة</h3><p>دعم يخفف العبء التشغيلي عن فريق العيادة.</p></li>
-          <li><h3>المختبرات الطبية</h3><p>تواصل منظم مع مراجعي المعمل ومتابعة استفساراتهم.</p></li>
-          <li><h3>الصيدليات</h3><p>دعم تواصل الصيدلية مع عملائها ومتجرها الإلكتروني.</p></li>
-          <li><h3>منصات الرعاية الصحية</h3><p>فرق متخصصة تدعم خدمة المستخدمين وتحسين تجربتهم.</p></li>
-          <li><h3>مزودو خدمات الطب الاتصالي</h3><p>فرق متخصصة تدعم الاستشارات الافتراضية وجدولة المواعيد والفرز الطبي، وتحسّن تجربة المرضى.</p></li>
-        </ul>
-      </div>
+      <p class="footer__legal">© <span id="year">٢٠٢٦</span> ميلا سيرف. جميع الحقوق محفوظة.</p>
     </div>
-  </div>
-</section>
+  </footer>
 
-<!-- ================= WHY MILASERV ================= -->
-<section class="why" id="why">
-  <div class="container">
-    <header class="section-head">
-      <h2>لماذا ميلاسيرف؟</h2>
-      <p>شريك تشغيلي يفهم احتياجات مؤسستك الصحية</p>
-    </header>
-    <div class="row gy-5 gx-xl-5">
-      <div class="col-lg-8">
-        <div class="why__grid">
-          <article class="why__item" data-reveal>
-            <h3>خبرة متخصصة في القطاع الصحي</h3>
-            <p>من إدارة الحجوزات والاستفسارات إلى متابعة المرضى والتعامل مع الشكاوى، نصمم خدماتنا بما يتناسب مع طبيعة العمليات الصحية واحتياجات كل مؤسسة.</p>
-          </article>
-          <article class="why__item" data-reveal>
-            <h3>فرق عمل مرنة تعمل وفق نظام مؤسستك</h3>
-            <p>نوفر فرقًا متخصصة تعمل وفق إجراءات منشأتك وأنظمتها المعتمدة، مع إمكانية زيادة عدد أفرادها وتوسيع مهامها حسب حجم العمل، بما يتيح لك التوسع بكفاءة دون إعادة بناء منظومة التشغيل.</p>
-          </article>
-          <article class="why__item" data-reveal>
-            <h3>عمليات أكثر تنظيمًا، وضغط تشغيلي أقل</h3>
-            <p>نتولى إدارة مهام التشغيل والتواصل والمتابعة ضمن نطاق الخدمات المتفق عليه، بما يخفف الأعباء اليومية عن فريقك ويساعد على تنظيم سير العمل داخل المؤسسة.</p>
-          </article>
-          <article class="why__item" data-reveal>
-            <h3>أداء واضح وفرص مستمرة للتحسين</h3>
-            <p>من خلال التقارير الدورية ومتابعة مؤشرات الأداء المتفق عليها، يمكنك تقييم جودة الخدمة وتحديد فرص تطوير تجربة المرضى.</p>
-          </article>
-        </div>
-      </div>
-      <!-- Data governance: set apart as its own panel so the confidentiality point reads first -->
-      <div class="col-lg-4">
-        <article class="why__gov" data-reveal>
-          <i class="bi bi-lock" aria-hidden="true"></i>
-          <h3>حوكمة البيانات وسرية المعلومات</h3>
-          <p>نتعامل مع بيانات المرضى بسرية، ونعمل وفق سياسات الخصوصية وإجراءات حماية البيانات المعتمدة والمتفق عليها مع كل منشأة، بما يدعم الالتزام بضوابط العمل ويحافظ على خصوصية المعلومات.</p>
-        </article>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ================= FINAL CTA ================= -->
-<section class="section" id="contact">
-  <div class="container">
-    <div class="cta">
-      <div class="row align-items-center gy-4">
-        <div class="col-lg-8">
-          <h2>جاهز لتخفيف العبء التشغيلي عن منشأتك؟</h2>
-          <p>تحدث مع فريقنا لنحدد معًا الخدمات الأنسب لاحتياجاتك.</p>
-        </div>
-        <div class="col-lg-4 cta__actions">
-          <a class="btn btn-brand-light btn-lg" href="https://calendly.com/milaserv" target="_blank" rel="noopener">احجز استشارة</a>
-          <a class="cta__wa" href="https://wa.me/201055577579" target="_blank" rel="noopener"><i class="bi bi-whatsapp" aria-hidden="true"></i>واتساب</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-</main>
-
-<!-- ================= FOOTER ================= -->
-<footer class="footer">
-  <div class="container">
-    <div class="row gy-4">
-      <div class="col-lg-4">
-        <a class="brand" href="#top"><img src="Logo1.png" alt="ميلاسيرف" width="34" height="34"><span>ميلاسيرف</span></a>
-        <p class="mt-3">شريكك في تعهيد وإدارة الخدمات التشغيلية للقطاع الصحي.</p>
-      </div>
-      <div class="col-6 col-lg-2">
-        <h2 class="footer__h">الصفحة</h2>
-        <ul>
-          <li><a href="#services">خدماتنا</a></li>
-          <li><a href="#process">كيف نعمل؟</a></li>
-          <li><a href="#sectors">القطاعات</a></li>
-          <li><a href="#why">لماذا ميلاسيرف؟</a></li>
-        </ul>
-      </div>
-      <div class="col-6 col-lg-3">
-        <h2 class="footer__h">خدماتنا</h2>
-        <ul>
-          <li><a href="#svc-1">خدمة العملاء ومراكز الاتصال</a></li>
-          <li><a href="#svc-2">إدارة العمليات التأمينية</a></li>
-          <li><a href="#svc-3">إدارة علاقات المرضى وبرامج الولاء</a></li>
-          <li><a href="#svc-4">فرق مبيعات هاتفية</a></li>
-          <li><a href="#svc-5">إدارة عمليات التجارة الإلكترونية</a></li>
-          <li><a href="#svc-6">التسويق الرقمي</a></li>
-          <li><a href="#svc-7">الاستشارات الطبية عن بُعد</a></li>
-        </ul>
-      </div>
-      <div class="col-lg-3">
-        <h2 class="footer__h">تواصل معنا</h2>
-        <ul>
-          <li><a href="https://calendly.com/milaserv" target="_blank" rel="noopener">احجز استشارة</a></li>
-          <li><a href="https://wa.me/201055577579" target="_blank" rel="noopener">واتساب: <bdi dir="ltr">+20 105 557 7579</bdi></a></li>
-          <li><a href="https://www.linkedin.com/company/milaserv-company/" target="_blank" rel="noopener">LinkedIn</a></li>
-          <li><a href="https://www.instagram.com/milaserv.eg/" target="_blank" rel="noopener">Instagram</a></li>
-          <li><a href="https://milaserv.com/ar/privacy-policy" target="_blank" rel="noopener">سياسة الخصوصية</a></li>
-        </ul>
-      </div>
-    </div>
-    <p class="footer__legal">© <span id="year">٢٠٢٦</span> ميلا سيرف. جميع الحقوق محفوظة.</p>
-  </div>
-</footer>
-
-<script src="vendor/bootstrap.bundle.min.js"></script>
-<script src="js/main.js"></script>
+  <script src="vendor/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
+
 </html>
